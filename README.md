@@ -24,11 +24,24 @@ This tool focuses on **API response inspection and data structure analysis**, no
 2. Open Developer Console [Ctrl+Shift+J]
 3. Paste the script from this repository
 ```javascript
-fetch("https://raw.githubusercontent.com/HitroxVN/quiz.com-reverse/refs/heads/main/main.js")
+fetch("https://raw.githubusercontent.com/HitroxVN/quiz.com-reverse/refs/heads/main/main.min.js")
     .then((res) => res.text()
     .then((t) => eval(t)))
 ```
 4. View parsed quiz data in the console
 
 ## Example Output
-![App Screenshot](https://github.com/HitroxVN/quiz.com-reverse/blob/main/ScreenShot.png?raw=true)
+![App Screenshot](https://github.com/HitroxVN/quiz.com-reverse/blob/main/images/ScreenShot.png?raw=true)
+
+## Try UI version
+- Paste the script from this repository
+```javascript
+fetch("https://raw.githubusercontent.com/HitroxVN/quiz.com-reverse/refs/heads/main/bundle.js")
+    .then((res) => res.text()
+    .then((t) => eval(t)))
+```
+
+<p align="center">
+  <img src="https://github.com/HitroxVN/quiz.com-reverse/blob/main/images/ScreenShot1.png?raw=true" width="45%" />
+  <img src="https://github.com/HitroxVN/quiz.com-reverse/blob/main/images/ScreenShot2.png?raw=true" width="45%" />
+</p>
